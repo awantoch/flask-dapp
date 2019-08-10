@@ -1,0 +1,21 @@
+{
+  "name": "dapp_flask",
+  "version": "1.0.0",
+  "description": "An Ethereum dapp in Python",
+  "main": "src/main.py",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "deploy": "truffle deploy",
+    "compile": "truffle compile"
+  },
+  "author": "Alec M. Wantoch",
+  "license": "MIT",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.2.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.0.31"
+  }
+}
